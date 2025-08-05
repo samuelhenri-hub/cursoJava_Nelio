@@ -13,18 +13,22 @@ public class entradaDados {
         Scanner sc = new Scanner(System.in);
         locale.setDefault(locale.US);
 
+        System.out.print("Digite seu nome: ");
         String nome;
         nome = sc.next();
         System.out.println("Seu nome é: " + nome);
 
+        System.out.print("Digite sua idade: ");
         int idade;
         idade = sc.nextInt();
         System.out.println("Sua idade é: " + idade);
 
+        System.out.print("Digite sua altura: ");
         double altura;
         altura = sc.nextDouble();
         System.out.println("Sua altura é: " + altura);
 
+        System.out.print("Digite seu sexo: ");
         char genero;
         genero = sc.next().charAt(0);
         System.out.println("O Seu genero é: " + genero);
