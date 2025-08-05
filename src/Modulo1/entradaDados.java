@@ -1,13 +1,17 @@
 package Modulo1;
 
 import javax.xml.transform.stream.StreamSource;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class entradaDados {
 
+    private static Locale locale;
+
     public static void main(String[] args){
 
         Scanner sc = new Scanner(System.in);
+        locale.setDefault(locale.US);
 
         String nome;
         nome = sc.next();
