@@ -2,7 +2,7 @@ package Modulo1;
 
 import java.util.Scanner;
 
-public class testeMAtematica {
+public class testeMatematica {
 
     public static void main(String[] args) {
 
@@ -19,6 +19,10 @@ public class testeMAtematica {
         int soma = num1 + num2;
         int subtracao = num1 - num2;
         int vezes = num1 * num2;
-        System.out.printf("Soma: %d %n Subtração: %d %n Multiplicação: %d %n", soma, subtracao, vezes);
+        double divisao = num1/num2;
+        System.out.printf("Soma: %d %n Subtração: %d %n Multiplicação: %d %n Divisão: %.2f%n ",
+                soma, subtracao, vezes, divisao);
+
+        sc.close();
     }
 }
