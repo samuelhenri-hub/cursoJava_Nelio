@@ -19,6 +19,6 @@ public class testeMAtematica {
         int soma = num1 + num2;
         int subtracao = num1 - num2;
         int vezes = num1 * num2;
-        System.out.printf("Soma: %d %n Subtração: %d %n Multiplicação: %d %n", soma, subtracao);
+        System.out.printf("Soma: %d %n Subtração: %d %n Multiplicação: %d %n", soma, subtracao, vezes);
     }
 }
