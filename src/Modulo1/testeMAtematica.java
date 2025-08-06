@@ -16,7 +16,9 @@ public class testeMAtematica {
         int num2;
         num2 = sc.nextInt();
 
-        int mais = num1 + num2;
-        System.out.printf("Soma: %d %n", mais);
+        int soma = num1 + num2;
+        int subtracao = num1 - num2;
+        int vezes = num1 * num2;
+        System.out.printf("Soma: %d %n Subtração: %d %n Multiplicação: %d %n", soma, subtracao);
     }
 }
