@@ -7,11 +7,11 @@ public class exercicio1 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Digite um numero");
+        System.out.print("Digite um numero: ");
         int num1;
         num1 = sc.nextInt();
 
-        System.out.print("Digite outro numero");
+        System.out.print("Digite outro numero: ");
         int num2;
         num2 = sc.nextInt();
 
