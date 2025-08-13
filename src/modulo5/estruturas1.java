@@ -11,6 +11,10 @@ public class estruturas1 {
         System.out.print("Que horas são? ");
         hora = sc.nextInt();
 
-        if ()
+        if (hora > 0 && hora < 12) {
+            System.out.print("Bom dia!!");
+        } else {
+            System.out.print("Boa tarde!!");
+        }
     }
 }
