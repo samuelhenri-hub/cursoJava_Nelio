@@ -2,7 +2,7 @@ package Modulo1;
 
 import java.util.Scanner;
 
-public class testeMatematica {
+public class testeMAtematica {
 
     public static void main(String[] args) {
 
