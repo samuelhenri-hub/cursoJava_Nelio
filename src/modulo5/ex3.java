@@ -6,16 +6,14 @@ public class ex3 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
-        int a = sc.nextInt();
-        int b = sc.nextInt();
+        int A = sc.nextInt();
+        int B = sc.nextInt();
 
-        double divi = a / b;
-
-        if (divi == 0) {
-            System.out.print("SAO MULTIPLOS");
+        if (A % B == 0 || B % A == 0) {
+            System.out.println("Sao Multiplos");
         }
         else {
-            System.out.print("NAO SAO MULTIPLOS");
+            System.out.println("Nao sao Multiplos");
         }
         sc.close();
     }
