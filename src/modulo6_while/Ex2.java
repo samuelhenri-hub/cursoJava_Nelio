@@ -12,7 +12,6 @@ public class Ex2 {
 
         while (x != 0 || y != 0) {
 
-
             if (x > 0 && y > 0) {
                 System.out.println("QUADRANTE 1");
             }
