@@ -21,7 +21,7 @@ public class Ex2 {
             else if (x < 0 && x < 0) {
                 System.out.println("QUADRANTE 3");
             }
-            else if (x > 0 && y < 0) {
+            else {
                 System.out.println("QUADRANTE 4");
             }
 
