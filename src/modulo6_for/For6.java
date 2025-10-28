@@ -2,14 +2,14 @@ package modulo6_for;
 
 import java.util.Scanner;
 
-public class For1 {
-    public static void main(String[] args){
+public class For6 {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int x = sc.nextInt();
+        int n = sc.nextInt();
 
-        for (int i = 0; i < x; i++) {
-            if (i % 2 != 0) {
+        for (int i=1; i<=n; i++) {
+            if (n % i == 0) {
                 System.out.println(i);
             }
         }
