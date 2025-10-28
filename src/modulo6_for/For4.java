@@ -20,7 +20,6 @@ public class For4 {
                 System.out.print(divisao);
             }
         }
-
         sc.close();
     }
 }
