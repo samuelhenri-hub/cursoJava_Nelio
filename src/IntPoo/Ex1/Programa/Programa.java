@@ -13,6 +13,9 @@ public class Programa {
         produtos produtos = new produtos();
 
         System.out.println("Digite as seguintes informações do produto");
+        produtos.nome = sc.next();
+        produtos.quantidade = sc.nextInt();
+        produtos.preco = sc.nextDouble();
 
         sc.close();
     }
